@@ -6,6 +6,7 @@ import androidx.core.view.MenuItemCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.util.Log;
@@ -200,6 +201,11 @@ public class MediaListActivity extends AppCompatActivity {
                 return true;
             case R.id.setting_button:
                 Log.d(LOG_TAG, "Settings clicked");
+                return true;
+            case R.id.add_content:
+                Intent intent = new Intent(this, UploadActivity.class);
+                startActivity(intent);
+                Log.d(LOG_TAG, "Add content clicked");
                 return true;
             case R.id.view_selector:
                 Log.d(LOG_TAG, "View selector clicked");

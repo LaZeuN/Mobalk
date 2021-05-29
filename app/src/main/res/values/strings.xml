@@ -17,6 +17,8 @@
     <string name="update">Módosítás</string>
     <string name="delete">Törlés</string>
     <string name="Email">Email</string>
+    <string name="takePicture">Kép készítése</string>
+    <string name="back">Vissza</string>
 
     <string-array name="content_identifier">
         <item>1</item>
