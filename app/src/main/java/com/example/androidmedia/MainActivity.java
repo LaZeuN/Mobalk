@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(LOG_TAG, "onCreate");
         mNotificationHandler = new NotificationHandler(this);
     }
-
+//    Teszt
     public void login(View view) {
         String userName = userNameET.getText().toString();
         String password = passwordET.getText().toString();
