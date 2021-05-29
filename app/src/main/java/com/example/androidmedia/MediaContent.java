@@ -52,7 +52,7 @@ public class MediaContent {
         this.note = note;
     }
 
-    public String _getIdentifier() {
+    public String getIdentifier() {
         return identifier;
     }
 

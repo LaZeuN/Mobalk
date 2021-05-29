@@ -153,7 +153,7 @@ public class MediaContentAdapter extends RecyclerView.Adapter<MediaContentAdapte
 
             Glide.with(mContext).load(currentContent.getContent()).into(mContent);
 
-            mIdentifier.setText(currentContent._getIdentifier());
+            mIdentifier.setText(currentContent.getIdentifier());
             mBasedOn.setText(currentContent.getBasedOn());
             mStatus.setText(currentContent.getStatus());
             mType.setText(currentContent.getType());

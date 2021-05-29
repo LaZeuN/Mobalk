@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("SECRET_KEY", SECRET_KEY);
         startActivity(intent);
     }
-
+//TESZT
 
     public void loginAsGuest(View view) {
         mAuth.signInAnonymously().addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

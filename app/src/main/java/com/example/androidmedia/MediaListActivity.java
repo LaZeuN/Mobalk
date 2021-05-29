@@ -94,12 +94,12 @@ public class MediaListActivity extends AppCompatActivity {
     }
 
     public void deleteContent(MediaContent content) {
-        DocumentReference ref = mItems.document(content._getIdentifier());
+        DocumentReference ref = mItems.document(content.getIdentifier());
 
         ref.delete().addOnSuccessListener(success -> {
-            Log.d(LOG_TAG, "Content successfully deleted: " + content._getIdentifier());
+            Log.d(LOG_TAG, "Content successfully deleted: " + content.getIdentifier());
         }).addOnFailureListener(failure -> {
-            Toast.makeText(this, "Content" + content._getIdentifier() + "cannot be deleted.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Content" + content.getIdentifier() + "cannot be deleted.", Toast.LENGTH_LONG).show();
         });
 
         queryData();
