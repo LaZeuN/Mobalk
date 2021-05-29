@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/contentImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/contentIdentifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentImage"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+
+        <TextView
+            android:id="@+id/contentBasedOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentIdentifier"
+            android:padding="8dp"
+            android:text="@string/placeholder" />
+
+        <TextView
+            android:id="@+id/contentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentBasedOn"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentStatus"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+
+        <TextView
+            android:id="@+id/contentModality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentType"
+            android:padding="8dp"
+            android:text="@string/placeholder" />
+
+        <TextView
+            android:id="@+id/contentView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentModality"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentView"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textColor="?android:textColorSecondary" />
+
+
+        <TextView
+            android:id="@+id/contentEncounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentSubject"
+            android:padding="8dp"
+            android:text="@string/placeholder" />
+
+        <TextView
+            android:id="@+id/contentCreatedDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentEncounter"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentCreatedPeriod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentCreatedDateTime"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentIssued"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentCreatedPeriod"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentIssued"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentReasonCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentOperator"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentBodySite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentReasonCode"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentDeviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentBodySite"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentDeviceName"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentDevice"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentHeight"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentFrames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentWidth"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentFrames"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <TextView
+            android:id="@+id/contentNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentDuration"
+            android:padding="8dp"
+            android:text="@string/placeholder"  />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentNote"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/update" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/delete" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

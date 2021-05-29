@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">androidMedia</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="email">Email cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="phone_number">Telefonszám</string>
+    <string name="address">Lakcím</string>
+    <string name="description">Leírás</string>
+    <string name="login_as_guest">Bejelentekezés vendégként</string>
+    <string name="placeholder">Leírás</string>
+    <string name="settings">Beállítások</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="update">Módosítás</string>
+    <string name="delete">Törlés</string>
+    <string name="Email">Email</string>
+
+    <string-array name="content_identifier">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="content_basedOn">
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+        <item>Based On</item>
+    </string-array>
+
+    <string-array name="content_status">
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+        <item>Status</item>
+    </string-array>
+
+    <string-array name="content_type">
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+        <item>Type</item>
+    </string-array>
+
+    <string-array name="content_modality">
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+        <item>Modality</item>
+    </string-array>
+
+    <string-array name="content_view">
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+        <item>View</item>
+    </string-array>
+
+    <string-array name="content_subject">
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+        <item>Subject</item>
+    </string-array>
+
+    <string-array name="content_encounter">
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+        <item>Encounter</item>
+    </string-array>
+
+    <string-array name="content_createdDateTime">
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+        <item>Created Date Time</item>
+    </string-array>
+
+    <string-array name="content_createdPeriod">
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+        <item>Created Period</item>
+    </string-array>
+
+    <string-array name="content_issued">
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+        <item>Issued</item>
+    </string-array>
+
+    <string-array name="content_operator">
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+        <item>Operator</item>
+    </string-array>
+
+    <string-array name="content_reasonCode">
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+        <item>Reason code</item>
+    </string-array>
+
+    <string-array name="content_bodySite">
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+        <item>Body Site</item>
+    </string-array>
+
+    <string-array name="content_deviceName">
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+        <item>Device Name</item>
+    </string-array>
+
+    <string-array name="content_device">
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+        <item>Device</item>
+    </string-array>
+
+    <string-array name="content_height">
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+        <item>Height</item>
+    </string-array>
+
+    <string-array name="content_width">
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+        <item>Width</item>
+    </string-array>
+
+    <string-array name="content_frames">
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+        <item>Frames</item>
+    </string-array>
+
+    <string-array name="content_duration">
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+        <item>Duration</item>
+    </string-array>
+
+    <string-array name="content_note">
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+        <item>Note</item>
+    </string-array>
+
+    <array name="content_image">
+        <item>@drawable/smart_phone</item>
+        <item>@drawable/tablet</item>
+        <item>@drawable/pc</item>
+        <item>@drawable/oled_tv</item>
+        <item>@drawable/bike</item>
+        <item>@drawable/lego</item>
+        <item>@drawable/custome</item>
+        <item>@drawable/sport_tools</item>
+        <item>@drawable/kitchen</item>
+        <item>@drawable/furniture</item>
+    </array>
+</resources>
