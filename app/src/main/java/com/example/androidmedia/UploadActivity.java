@@ -9,7 +9,10 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.TypedArray;
 import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -17,17 +20,47 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class UploadActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MediaListActivity.class.getName();
     private final int REQUEST_CODE_ASK_PERMISSION = 123;
     private final int tag = 1;
+
+    private FirebaseFirestore mFirestore;
+    private CollectionReference mItems;
+
     ImageView imageView;
+
+    EditText identifierET;
+    EditText basedOnET;
+    EditText statusET;
+    EditText typeET;
+    EditText modalityET;
+    EditText viewET;
+    EditText subjectET;
+    EditText encounterET;
+    EditText createdDateTimeET;
+    EditText createdPeriodET;
+    EditText issuedET;
+    EditText operatorET;
+    EditText reasonCodeET;
+    EditText bodysiteET;
+    EditText deviceNameET;
+    EditText deviceET;
+    EditText heightET;
+    EditText widthET;
+    EditText framesET;
+    EditText durationET;
+    EditText noteET;
+    Bitmap img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +68,79 @@ public class UploadActivity extends AppCompatActivity {
         setContentView(R.layout.activity_upload);
 
         imageView = findViewById(R.id.imageView2);
+
+        identifierET = findViewById(R.id.identifier);
+        basedOnET = findViewById(R.id.basedOn);
+        statusET = findViewById(R.id.status);
+        typeET = findViewById(R.id.type);
+        modalityET = findViewById(R.id.modality);
+        viewET = findViewById(R.id.view);
+        subjectET = findViewById(R.id.subject);
+        encounterET = findViewById(R.id.encounter);
+        createdDateTimeET = findViewById(R.id.createdDateTime);
+        createdPeriodET = findViewById(R.id.createdPeriod);
+        issuedET = findViewById(R.id.issued);
+        operatorET = findViewById(R.id.operator);
+        reasonCodeET = findViewById(R.id.reasonCode);
+        bodysiteET = findViewById(R.id.bodysite);
+        deviceNameET = findViewById(R.id.deviceName);
+        deviceET = findViewById(R.id.device);
+        heightET = findViewById(R.id.height);
+        widthET = findViewById(R.id.width);
+        framesET = findViewById(R.id.frames);
+        durationET = findViewById(R.id.duration);
+        noteET = findViewById(R.id.note);
+
+        mFirestore = FirebaseFirestore.getInstance();
+        mItems = mFirestore.collection("Contents");
+    }
+
+    private void onUpload(View v) {
+        String identifier = identifierET.getText().toString();
+        String basedOn = basedOnET.getText().toString();
+        String status = statusET.getText().toString();
+        String type = typeET.getText().toString();
+        String modality = modalityET.getText().toString();
+        String view = viewET.getText().toString();
+        String subject = subjectET.getText().toString();
+        String encounter = encounterET.getText().toString();
+        String createdDateTime = createdDateTimeET.getText().toString();
+        String createdPeriod = createdPeriodET.getText().toString();
+        String issued = issuedET.getText().toString();
+        String operator = operatorET.getText().toString();
+        String reasonCode = reasonCodeET.getText().toString();
+        String bodysite = bodysiteET.getText().toString();
+        String deviceName = deviceNameET.getText().toString();
+        String device = deviceET.getText().toString();
+        String height = heightET.getText().toString();
+        String width = widthET.getText().toString();
+        String frames = framesET.getText().toString();
+        String duration = durationET.getText().toString();
+//        TypedArray image = getResources().getDrawable();
+        String note = noteET.getText().toString();
+
+//        mItems.add(new MediaContent(identifier,
+//                basedOn,
+//                status,
+//                type,
+//                modality,
+//                view,
+//                subject,
+//                encounter,
+//                createdDateTime,
+//                createdPeriod,
+//                issued,
+//                operator,
+//                reasonCode,
+//                bodysite,
+//                deviceName,
+//                device,
+//                height,
+//                width,
+//                frames,
+//                duration,
+//                image.,
+//                note));
     }
 
     public void openCamera(View view) {
@@ -79,7 +185,7 @@ public class UploadActivity extends AppCompatActivity {
 
         if (requestCode == tag && resultCode == RESULT_OK) {
             Bundle bundle = data.getExtras();
-            Bitmap img = (Bitmap) bundle.get("data");
+            img = (Bitmap) bundle.get("data");
             imageView.setImageBitmap(img);
         }
     }

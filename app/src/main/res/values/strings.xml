@@ -19,6 +19,29 @@
     <string name="Email">Email</string>
     <string name="takePicture">Kép készítése</string>
     <string name="back">Vissza</string>
+    <string name="basedOn">Miért készült?</string>
+    <string name="status">Állapot</string>
+    <string name="type">Típus</string>
+    <string name="modality">Forrás</string>
+    <string name="view">Kép nézete(elsső, hátsó)</string>
+    <string name="subject">Miről/Kiről készült?</string>
+    <string name="encounter">Hogyan készült?</string>
+    <string name="createdDateTime">Mikor készült?</string>
+    <string name="createdPeriod">Meddig készült?</string>
+    <string name="issued">Mikor vált elérhetővé?</string>
+    <string name="operator">Készítő</string>
+    <string name="reasonCode">Milyen célból készült?</string>
+    <string name="bodysite">Megfigyelt elem</string>
+    <string name="deviceName">Eszköz neve</string>
+    <string name="device">Eszköz típusa</string>
+    <string name="height">Kép magassága</string>
+    <string name="width">Kép szélessége</string>
+    <string name="frames">Kép mérete</string>
+    <string name="duration">Időtartam</string>
+    <string name="note">Megjegyzés</string>
+    <string name="save">Mentés</string>
+    <string name="upload">Feltöltés</string>
+    <string name="identifier">Azonosító</string>
 
     <string-array name="content_identifier">
         <item>1</item>
