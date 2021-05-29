@@ -19,7 +19,7 @@
     <string name="Email">Email</string>
     <string name="takePicture">Kép készítése</string>
     <string name="back">Vissza</string>
-    <string name="basedOn">Miért készült?</string>
+    <string name="basedOn">Mi alapján készült?</string>
     <string name="status">Állapot</string>
     <string name="type">Típus</string>
     <string name="modality">Forrás</string>
@@ -57,275 +57,276 @@
     </string-array>
 
     <string-array name="content_basedOn">
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
-        <item>Based On</item>
+        <item>Nem az elvárás alapján</item>
+        <item>Elvárás alapján</item>
+        <item>Nem az elvárás alapján</item>
+        <item>Nem az elvárás alapján</item>
+        <item>Elvárás alapján</item>
+        <item>Elvárás alapján</item>
+        <item>Nem az elvárás alapján</item>
+        <item>Elvárás alapján</item>
+        <item>Nem az elvárás alapján</item>
+        <item>Elvárás alapján</item>
     </string-array>
 
     <string-array name="content_status">
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
-        <item>Status</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
+        <item>Státusz: Elkészült</item>
     </string-array>
 
     <string-array name="content_type">
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
-        <item>Type</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
+        <item>Típus: Kép</item>
     </string-array>
 
     <string-array name="content_modality">
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
-        <item>Modality</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
+        <item>Forrás: Internet</item>
     </string-array>
 
     <string-array name="content_view">
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
-        <item>View</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
+        <item>Nézet: szemből</item>
     </string-array>
 
     <string-array name="content_subject">
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
-        <item>Subject</item>
+        <item>Tárgy: barátkozás</item>
+        <item>Tárgy: mosoly</item>
+        <item>Tárgy: Round One: FIGHT</item>
+        <item>Tárgy: Virágzás</item>
+        <item>Tárgy: Látogatás</item>
+        <item>Tárgy: Its FINE</item>
+        <item>Tárgy: Samuel</item>
+        <item>Tárgy: Hegyes táj</item>
+        <item>Tárgy: Végjáték</item>
+        <item>Tárgy: POOG</item>
     </string-array>
 
     <string-array name="content_encounter">
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
-        <item>Encounter</item>
+        <item>Hogyan készült: szafarin</item>
+        <item>Hogyan készült: szörfözéskor</item>
+        <item>Hogyan készült: Csata közben</item>
+        <item>Hogyan készült: Séta közben</item>
+        <item>Hogyan készült: Miközben felemelt egy nagy vámpírhölgy</item>
+        <item>Hogyan készült: Miközben éppen FINE volt</item>
+        <item>Hogyan készült: Éppen néztek</item>
+        <item>Hogyan készült: Futás közben</item>
+        <item>Hogyan készült: Mozizáskor</item>
+        <item>Hogyan készült: Stream közben</item>
     </string-array>
 
     <string-array name="content_createdDateTime">
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
-        <item>Created Date Time</item>
+        <item>Készült: 2021.04.01.</item>
+        <item>Készült: 2021.04.02.</item>
+        <item>Készült: 2021.04.03.</item>
+        <item>Készült: 2021.04.06.</item>
+        <item>Készült: 2021.04.15.</item>
+        <item>Készült: 2021.04.16.</item>
+        <item>Készült: 2021.04.18.</item>
+        <item>Készült: 2021.04.20.</item>
+        <item>Készült: 2021.05.01.</item>
+        <item>Készült: 2021.05.25.</item>
     </string-array>
 
     <string-array name="content_createdPeriod">
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
-        <item>Created Period</item>
+        <item>Elkészülési időtartam: 69 másodperc</item>
+        <item>Elkészülési időtartam: 32 másodperc</item>
+        <item>Elkészülési időtartam: 21 másodperc</item>
+        <item>Elkészülési időtartam: 17 másodperc</item>
+        <item>Elkészülési időtartam: 13 másodperc</item>
+        <item>Elkészülési időtartam: 11 másodperc</item>
+        <item>Elkészülési időtartam: 8 másodperc</item>
+        <item>Elkészülési időtartam: 6 másodperc</item>
+        <item>Elkészülési időtartam: 3 másodperc</item>
+        <item>Elkészülési időtartam: 1 másodperc</item>
     </string-array>
 
     <string-array name="content_issued">
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
-        <item>Issued</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
+        <item>Feltöltve: 2021.05.29</item>
     </string-array>
 
     <string-array name="content_operator">
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
-        <item>Operator</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
+        <item>Feltöltő: Jómagam</item>
     </string-array>
 
     <string-array name="content_reasonCode">
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
-        <item>Reason code</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
+        <item>Cél: szórakoztatás</item>
     </string-array>
 
     <string-array name="content_bodySite">
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
-        <item>Body Site</item>
+        <item>Megfigyelt elem: kedves oroszlán</item>
+        <item>Megfigyelt elem: mosolygós cápa</item>
+        <item>Megfigyelt elem: Godzilla vs Kong</item>
+        <item>Megfigyelt elem: Cseresznyefa</item>
+        <item>Megfigyelt elem: Lady Dimitrescu</item>
+        <item>Megfigyelt elem: Its FINE</item>
+        <item>Megfigyelt elem: Samuel L. Jackson</item>
+        <item>Megfigyelt elem: hegyek</item>
+        <item>Megfigyelt elem: Marvel karakterek</item>
+        <item>Megfigyelt elem: Pog</item>
     </string-array>
 
     <string-array name="content_deviceName">
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
-        <item>Device Name</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
+        <item>Eszköz neve: Csongorfón</item>
     </string-array>
 
     <string-array name="content_device">
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
-        <item>Device</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
+        <item>Eszköz: Samsung Galaxy A51</item>
     </string-array>
 
     <string-array name="content_height">
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
-        <item>Height</item>
+        <item>Magasság: 586px</item>
+        <item>Magasság: 433px</item>
+        <item>Magasság: 349px</item>
+        <item>Magasság: 534px</item>
+        <item>Magasság: 313px</item>
+        <item>Magasság: 618px</item>
+        <item>Magasság: 855px</item>
+        <item>Magasság: 484px</item>
+        <item>Magasság: 440px</item>
+        <item>Magasság: 400px</item>
     </string-array>
 
     <string-array name="content_width">
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
-        <item>Width</item>
+        <item>Szélesség: 457px</item>
+        <item>Szélesség: 644px</item>
+        <item>Szélesség: 620px</item>
+        <item>Szélesség: 800px</item>
+        <item>Szélesség: 560px</item>
+        <item>Szélesség: 1222px</item>
+        <item>Szélesség: 800px</item>
+        <item>Szélesség: 645px</item>
+        <item>Szélesség: 780px</item>
+        <item>Szélesség: 600px</item>
     </string-array>
 
     <string-array name="content_frames">
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
-        <item>Frames</item>
+        <item>Méret: 58KB</item>
+        <item>Méret: 77.7KB</item>
+        <item>Méret: 45.7KB</item>
+        <item>Méret: 127KB</item>
+        <item>Méret: 22.5KB</item>
+        <item>Méret: 693KB</item>
+        <item>Méret: 7.25KB</item>
+        <item>Méret: 77.7KB</item>
+        <item>Méret: 43.9KB</item>
+        <item>Méret: 301KB</item>
     </string-array>
 
     <string-array name="content_duration">
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
-        <item>Duration</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
+        <item>Időtartam: Örökkévalóság</item>
     </string-array>
 
     <string-array name="content_note">
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
-        <item>Note</item>
+        <item>Megjegyzés: Szafari közben barátkozom.</item>
+        <item>Megjegyzés: Milyen szép mosolya van ennek a cápának.</item>
+        <item>Megjegyzés: Élőben nézni sokkal jobb volt mint moziban.</item>
+        <item>Megjegyzés: Gyönyörű Sakura.</item>
+        <item>Megjegyzés: Felemelő érzés volt ilyen magasan lenni.</item>
+        <item>Megjegyzés: Its FINE volt na.</item>
+        <item>Megjegyzés: Game of thrones meme kombinálva.</item>
+        <item>Megjegyzés: Csak szimplán hegység.</item>
+        <item>Megjegyzés: A film után tele volt a mozi mosdója.</item>
+        <item>Megjegyzés: Le merem fogadni hogy nem számítottál egy random pixeles pog-ra.</item>
     </string-array>
 
     <array name="content_image">
-        <item>@drawable/smart_phone</item>
-        <item>@drawable/tablet</item>
-        <item>@drawable/pc</item>
-        <item>@drawable/oled_tv</item>
-        <item>@drawable/bike</item>
-        <item>@drawable/lego</item>
-        <item>@drawable/custome</item>
-        <item>@drawable/sport_tools</item>
-        <item>@drawable/kitchen</item>
-        <item>@drawable/furniture</item>
+        <item>@drawable/lion</item>
+        <item>@drawable/shark</item>
+        <item>@drawable/godzilla</item>
+        <item>@drawable/sakura</item>
+        <item>@drawable/lady</item>
+        <item>@drawable/fine</item>
+        <item>@drawable/samuel</item>
+        <item>@drawable/landscape</item>
+        <item>@drawable/endgame</item>
+        <item>@drawable/pog</item>
     </array>
 </resources>
