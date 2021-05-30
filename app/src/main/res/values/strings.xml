@@ -42,6 +42,7 @@
     <string name="save">Mentés</string>
     <string name="upload">Feltöltés</string>
     <string name="identifier">Azonosító</string>
+    <string name="rotate">Forgatás</string>
 
     <string-array name="content_identifier">
         <item>1</item>

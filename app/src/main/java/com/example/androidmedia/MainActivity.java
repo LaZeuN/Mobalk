@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.i(LOG_TAG, "onDestroy");
+        Toast.makeText(MainActivity.this, "Legközelebb találkozunk!", Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -119,12 +120,14 @@ public class MainActivity extends AppCompatActivity {
         editor.apply();
 
         Log.i(LOG_TAG, "onPause");
+        Toast.makeText(MainActivity.this, "Elhagytad a MainActivityt!", Toast.LENGTH_LONG).show();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         Log.i(LOG_TAG, "onResume");
+        Toast.makeText(MainActivity.this, "Üdv újra itt!", Toast.LENGTH_LONG).show();
     }
 
     @Override

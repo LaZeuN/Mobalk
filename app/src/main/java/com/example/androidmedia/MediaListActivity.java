@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.util.Log;
@@ -199,9 +200,6 @@ public class MediaListActivity extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 finish();
                 return true;
-            case R.id.setting_button:
-                Log.d(LOG_TAG, "Settings clicked");
-                return true;
             case R.id.add_content:
                 Intent intent = new Intent(this, UploadActivity.class);
                 startActivity(intent);
@@ -227,5 +225,44 @@ public class MediaListActivity extends AppCompatActivity {
         GridLayoutManager layoutManager = (GridLayoutManager) mRecyclerView.getLayoutManager();
         layoutManager.setSpanCount(spanCount);
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.i(LOG_TAG, "onStart");
+        Toast.makeText(MediaListActivity.this, "Üdv a képek között!", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.i(LOG_TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.i(LOG_TAG, "onDestroy");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        Log.i(LOG_TAG, "onPause");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i(LOG_TAG, "onResume");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i(LOG_TAG, "onRestart");
+    }
+
 
 }

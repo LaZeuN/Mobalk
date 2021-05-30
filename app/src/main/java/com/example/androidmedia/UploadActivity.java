@@ -20,6 +20,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -62,6 +65,8 @@ public class UploadActivity extends AppCompatActivity {
     EditText noteET;
     Bitmap img;
 
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,6 +98,8 @@ public class UploadActivity extends AppCompatActivity {
 
         mFirestore = FirebaseFirestore.getInstance();
         mItems = mFirestore.collection("Contents");
+
+        button = findViewById(R.id.button2);
     }
 
     private void onUpload(View v) {
@@ -163,6 +170,8 @@ public class UploadActivity extends AppCompatActivity {
         startActivityForResult(intent, tag);
     }
 
+
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 
@@ -190,4 +199,9 @@ public class UploadActivity extends AppCompatActivity {
         }
     }
 
+    public void rotate(View view) {
+        Animation rotate = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_rotate);
+        button.startAnimation(rotate);
+
+    }
 }
