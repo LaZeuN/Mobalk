@@ -46,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
         String userName = userNameET.getText().toString();
         String password = passwordET.getText().toString();
 
+        if (userName.isEmpty() || password.isEmpty()) {
+            Toast.makeText(MainActivity.this, "Előbb töltsd ki a mezőket! ", Toast.LENGTH_LONG).show();
+            return;
+        }
+
         mAuth.signInWithEmailAndPassword(userName,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {

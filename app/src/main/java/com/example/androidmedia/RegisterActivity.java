@@ -72,6 +72,11 @@ public class RegisterActivity extends AppCompatActivity {
             return;
         }
 
+        if (userName.isEmpty() || email.isEmpty() || password.isEmpty() || phone.isEmpty() || address.isEmpty()) {
+            Toast.makeText(RegisterActivity.this, "Előbb töltsd ki a mezőket! ", Toast.LENGTH_LONG).show();
+            return;
+        }
+
         Log.i(LOG_TAG, "Regisztrált: " + userName + ", Email cím: " + email + ", jelszó: " + password + ", telefonszám: " + phone + ", Lakcím: " + address);
 
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

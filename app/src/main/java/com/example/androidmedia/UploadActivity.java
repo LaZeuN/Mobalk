@@ -102,29 +102,29 @@ public class UploadActivity extends AppCompatActivity {
         button = findViewById(R.id.button2);
     }
 
-    private void onUpload(View v) {
-        String identifier = identifierET.getText().toString();
-        String basedOn = basedOnET.getText().toString();
-        String status = statusET.getText().toString();
-        String type = typeET.getText().toString();
-        String modality = modalityET.getText().toString();
-        String view = viewET.getText().toString();
-        String subject = subjectET.getText().toString();
-        String encounter = encounterET.getText().toString();
-        String createdDateTime = createdDateTimeET.getText().toString();
-        String createdPeriod = createdPeriodET.getText().toString();
-        String issued = issuedET.getText().toString();
-        String operator = operatorET.getText().toString();
-        String reasonCode = reasonCodeET.getText().toString();
-        String bodysite = bodysiteET.getText().toString();
-        String deviceName = deviceNameET.getText().toString();
-        String device = deviceET.getText().toString();
-        String height = heightET.getText().toString();
-        String width = widthET.getText().toString();
-        String frames = framesET.getText().toString();
-        String duration = durationET.getText().toString();
-//        TypedArray image = getResources().getDrawable();
-        String note = noteET.getText().toString();
+//    private void onUpload(View view) {
+//        String identifier = identifierET.getText().toString();
+//        String basedOn = basedOnET.getText().toString();
+//        String status = statusET.getText().toString();
+//        String type = typeET.getText().toString();
+//        String modality = modalityET.getText().toString();
+//        String view = viewET.getText().toString();
+//        String subject = subjectET.getText().toString();
+//        String encounter = encounterET.getText().toString();
+//        String createdDateTime = createdDateTimeET.getText().toString();
+//        String createdPeriod = createdPeriodET.getText().toString();
+//        String issued = issuedET.getText().toString();
+//        String operator = operatorET.getText().toString();
+//        String reasonCode = reasonCodeET.getText().toString();
+//        String bodysite = bodysiteET.getText().toString();
+//        String deviceName = deviceNameET.getText().toString();
+//        String device = deviceET.getText().toString();
+//        String height = heightET.getText().toString();
+//        String width = widthET.getText().toString();
+//        String frames = framesET.getText().toString();
+//        String duration = durationET.getText().toString();
+////        TypedArray image = getResources().getDrawable();
+//        String note = noteET.getText().toString();
 
 //        mItems.add(new MediaContent(identifier,
 //                basedOn,
@@ -148,7 +148,8 @@ public class UploadActivity extends AppCompatActivity {
 //                duration,
 //                image.,
 //                note));
-    }
+
+//    }
 
     public void openCamera(View view) {
         checkUserPermission();
@@ -203,5 +204,9 @@ public class UploadActivity extends AppCompatActivity {
         Animation rotate = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.image_rotate);
         button.startAnimation(rotate);
 
+    }
+
+    public void onUpload(View view) {
+        Toast.makeText(UploadActivity.this, "A feltöltés sajnos nem működik", Toast.LENGTH_LONG).show();
     }
 }

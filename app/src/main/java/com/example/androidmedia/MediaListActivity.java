@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.SearchView;
 import android.widget.Toast;
 
@@ -106,8 +107,8 @@ public class MediaListActivity extends AppCompatActivity {
         queryData();
     }
 
-    public void updateContent(MediaContent content) {
-
+    public void updateContent(View view) {
+        Toast.makeText(MediaListActivity.this, "A módosítás sajnos nem működik", Toast.LENGTH_LONG).show();
     }
 
     private void initializeData() {
